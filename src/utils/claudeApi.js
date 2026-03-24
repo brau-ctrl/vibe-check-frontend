@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://localhost:3001/api'
+const BASE_URL = import.meta.env.VITE_API_URL || "https://vibe-check-backend-0wld.onrender.com";
 
 const ANALYSE_SYSTEM_PROMPT = `You are LinkedIn Vibe Check — a brutally honest but constructive AI that reviews LinkedIn posts before they go live. You are witty, direct, and occasionally savage — but always useful. You don't sugarcoat, but you're never mean for the sake of it.
 
