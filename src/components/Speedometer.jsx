@@ -20,9 +20,9 @@ export default function Speedometer({ result }) {
   // Segment labels and colors
   const segments = [
     { label: 'WEAK', color: '#E24B4A' },
-    { label: 'CRINGE', color: '#EF9F27' },
-    { label: 'BOT', color: '#F5D020' },
-    { label: 'NGMI', color: '#97C459' },
+    { label: 'MEH', color: '#EF9F27' },
+    { label: 'DECENT', color: '#F5D020' },
+    { label: 'SOLID', color: '#97C459' },
     { label: 'EXCELLENT', color: '#1D9E75' },
   ]
 
@@ -76,7 +76,7 @@ export default function Speedometer({ result }) {
             strokeLinecap="round"
           />
 
-          {/* Segment 2 - CRINGE */}
+          {/* Segment 2 - MEH */}
           <path
             d="M 96 42 A 120 120 0 0 1 160 20"
             fill="none"
@@ -85,7 +85,7 @@ export default function Speedometer({ result }) {
             strokeLinecap="round"
           />
 
-          {/* Segment 3 - BOT */}
+          {/* Segment 3 - DECENT */}
           <path
             d="M 160 20 A 120 120 0 0 1 224 42"
             fill="none"
@@ -94,7 +94,7 @@ export default function Speedometer({ result }) {
             strokeLinecap="round"
           />
 
-          {/* Segment 4 - NGMI */}
+          {/* Segment 4 - SOLID */}
           <path
             d="M 224 42 A 120 120 0 0 1 280 160"
             fill="none"
@@ -120,13 +120,13 @@ export default function Speedometer({ result }) {
             WEAK
           </text>
           <text x="110" y="175" fontSize="11" fontWeight="bold" fill="#EF9F27" textAnchor="middle">
-            CRINGE
+            MEH
           </text>
           <text x="160" y="175" fontSize="11" fontWeight="bold" fill="#F5D020" textAnchor="middle">
-            BOT
+            DECENT
           </text>
           <text x="210" y="175" fontSize="11" fontWeight="bold" fill="#97C459" textAnchor="middle">
-            NGMI
+            SOLID
           </text>
           <text x="270" y="175" fontSize="11" fontWeight="bold" fill="#1D9E75" textAnchor="middle">
             EXCELLENT
