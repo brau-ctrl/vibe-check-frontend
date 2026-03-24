@@ -25,7 +25,7 @@ export async function analysePost(post, apiKey) {
   }
 
   try {
-    const response = await fetch(`${API_BASE_URL}/analyse`, {
+    const response = await fetch(`${BASE_URL}/api/analyse`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -61,7 +61,7 @@ export async function rewritePost(post, fixes, apiKey) {
   }
 
   try {
-    const response = await fetch(`${API_BASE_URL}/rewrite`, {
+    const response = await fetch(`${BASE_URL}/api/rewrite`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
