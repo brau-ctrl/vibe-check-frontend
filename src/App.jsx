@@ -70,10 +70,6 @@ export default function App() {
       <div className="min-h-screen bg-[#F5F7FA] py-8">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <header className="mb-8 rounded-2xl bg-white shadow-lg border border-[#E6EAF0] p-8 text-center relative overflow-hidden">
-            <div className="badge-free inline-flex items-center gap-2 px-3 py-1.5 font-bold uppercase tracking-widest text-white rounded-full">
-              <span className="status-dot" />
-              FREE TO USE
-            </div>
             <h1 className="mt-4 text-5xl md:text-6xl font-extrabold text-[#0F3460] leading-tight">
               LinkedIn Vibe Check
             </h1>
